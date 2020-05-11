@@ -1,0 +1,12 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  fill: #000;
+}
+
+.iconInverse {
+  fill: #fff;
+}
