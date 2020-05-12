@@ -1,0 +1,19 @@
+.wrapper > a {
+  color: var(--grey);
+  margin-left: var(--spacing-small);
+}
+
+.wrapper > a:first-child {
+  margin-left: 0;
+}
+
+.wrapper > a:hover {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 799px) {
+  .wrapper > a {
+    display: block;
+    margin-left: 0;
+  }
+}
