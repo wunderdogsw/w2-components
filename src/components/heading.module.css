@@ -1,0 +1,31 @@
+@import "../shared.css";
+
+.wrapper {
+  font-weight: 500;
+  margin: 0;
+}
+
+h1.wrapper {
+  font-size: var(--font-size-large);
+  line-height: 1.2;
+}
+
+h2.wrapper {
+  font-size: var(--font-size-medium);
+  line-height: 1.2;
+}
+
+h3.wrapper {
+  font-size: var(--font-size-normal);
+  line-height: 1.6;
+}
+
+h4.wrapper {
+  font-size: var(--font-size-normal);
+  line-height: 1.6;
+}
+
+h5.wrapper {
+  font-size: var(--font-size-normal);
+  line-height: 1.6;
+}

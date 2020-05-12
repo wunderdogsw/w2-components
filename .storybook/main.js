@@ -38,6 +38,7 @@ const addCSSModulesLoaders = (config) => {
 
 module.exports = {
   stories: ["../src/**/*.stories.[tj]s"],
+  addons: ["@storybook/addon-viewport/register"],
   webpackFinal: async (config, { configType }) => {
     const withoutCSSLoaders = removeCSSLoaders(config);
     const withCSSLoaders = addCSSModulesLoaders(withoutCSSLoaders);
