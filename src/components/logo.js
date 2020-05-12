@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./logo.module.css";
 
 const Logo = ({ inverse }) => (
-  <div className={styles.wrapper}>
+  <a className={styles.wrapper} href="https://wunderdog.fi/">
     <svg
       className={inverse ? styles.iconInverse : styles.icon}
       xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Logo = ({ inverse }) => (
         transform="translate(-749.147 -346.764)"
       />
     </svg>
-  </div>
+  </a>
 );
 
 export default Logo;

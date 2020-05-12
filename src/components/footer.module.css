@@ -1,0 +1,80 @@
+@import "../shared.css";
+
+.wrapper {
+  background: var(--black);
+  box-sizing: border-box;
+  color: var(--white);
+  padding: var(--spacing-large) var(--spacing) var(--spacing-small);
+  position: relative;
+}
+
+.logo {
+  width: 55px;
+}
+
+.heading {
+  margin-bottom: var(--spacing-small);
+  margin-top: var(--spacing);
+  max-width: 1200px;
+  width: 100%;
+}
+
+.smallprint {
+  color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-top: var(--spacing);
+  padding-top: var(--spacing-small);
+  position: relative;
+}
+
+.smallprint > div {
+  flex-shrink: 1;
+  margin-right: var(--spacing-small);
+}
+
+.smallprint > nav {
+  flex-shrink: 0;
+}
+
+.smallprint > nav > a {
+  margin-left: var(--spacing-small);
+}
+
+.smallprint > nav > a:first-child {
+  margin-left: 0;
+}
+
+.smallprint > nav > a:hover {
+  color: var(--white);
+}
+
+@media screen and (max-width: 1399px) {
+  .heading {
+    width: 80vw;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .smallprint {
+    flex-direction: column-reverse;
+  }
+
+  .smallprint > div {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .logo {
+    width: 40px;
+  }
+
+  .heading {
+    width: 85vw;
+    width: 85%;
+  }
+}
