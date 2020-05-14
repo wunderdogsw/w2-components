@@ -1,4 +1,6 @@
 .wrapper {
+  composes: root from "./shared.module.css";
+
   height: 100%;
   width: 100%;
 }

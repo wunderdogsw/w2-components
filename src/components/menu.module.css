@@ -1,3 +1,7 @@
+.wrapper {
+  composes: root from "./shared.module.css";
+}
+
 .wrapper > a {
   color: var(--grey);
   margin-left: var(--spacing-small);

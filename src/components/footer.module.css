@@ -1,6 +1,6 @@
-@import "../shared.css";
-
 .wrapper {
+  composes: root from "./shared.module.css";
+
   background: var(--black);
   box-sizing: border-box;
   color: var(--white);
