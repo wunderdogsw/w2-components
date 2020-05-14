@@ -1,3 +1,3 @@
-import React from "react";
+import FooterComponent from "./components/footer";
 
-export const Foo = () => <div>foo</div>;
+export const Footer = FooterComponent;
