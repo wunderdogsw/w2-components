@@ -11,8 +11,8 @@ To install the package, run
 ## Examples
 
 ```javascript
-import React from "react"
-import { Footer } from "w2-components"
+import React from "react";
+import { Footer } from "@wunderdog/w2-components";
 
 const MyComponent = () => (
   <Footer
@@ -28,8 +28,7 @@ const MyComponent = () => (
     in the European Union.`}
     legal={[<a href="/">Cookies Policy</a>, <a href="/">Privacy Policy</a>]}
   />
-)
+);
 
-export default MyComponent
+export default MyComponent;
 ```
-
