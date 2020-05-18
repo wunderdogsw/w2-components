@@ -1,5 +1,5 @@
 {
-  "name": "@wunderdogsw/w2-components",
+  "name": "@wunderdog/w2-components",
   "description": "React components extracted from w2",
   "version": "0.1.0",
   "main": "dist/index.js",
