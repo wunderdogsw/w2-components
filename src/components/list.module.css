@@ -1,0 +1,11 @@
+.wrapper {
+  composes: root from "./shared.module.css";
+
+  margin-left: 30vw;
+}
+
+@media (max-width: 739px) {
+  .wrapper {
+    margin-left: 20px;
+  }
+}
