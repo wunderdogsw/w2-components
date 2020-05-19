@@ -13,6 +13,7 @@ h1.wrapper {
 h2.wrapper {
   font-size: var(--font-size-medium);
   line-height: 1.2;
+  margin-left: 15vw;
 }
 
 h3.wrapper {
@@ -28,4 +29,16 @@ h4.wrapper {
 h5.wrapper {
   font-size: var(--font-size-normal);
   line-height: 1.6;
+}
+
+@media (max-width: 739px) {
+  h2.wrapper {
+    margin-left: 0;
+  }
+
+  h3.wrapper,
+  h4.wrapper,
+  h5.wrapper {
+    margin-left: 20px;
+  }
 }
