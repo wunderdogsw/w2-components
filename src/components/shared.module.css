@@ -9,6 +9,7 @@
 
   --spacing: 120px;
   --spacing-small: 40px;
+  --spacing-medium: 60px;
   --spacing-large: 80px;
 
   font-size: var(--font-size-normal);
@@ -42,6 +43,7 @@
 
     --spacing: 70px;
     --spacing-small: 30px;
+    --spacing-medium: 40px;
     --spacing-large: 60px;
   }
 }
@@ -54,6 +56,7 @@
 
     --spacing: 40px;
     --spacing-small: 20px;
+    --spacing-medium: 28px;
     --spacing-large: 40px;
   }
 }
