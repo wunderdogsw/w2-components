@@ -1,7 +1,5 @@
 .wrapper {
   composes: root from "./shared.module.css";
-
-  padding: 0 var(--spacing);
 }
 
 .wrapper > * {
@@ -18,24 +16,8 @@
   font-size: var(--font-size-large);
 }
 
-.wrapper > h2,
-.wrapper > h3,
-.wrapper > p,
-.wrapper > ul {
-  box-sizing: border-box;
-  max-width: 800px;
-  position: relative;
-}
-
 .wrapper > h2 {
   font-size: var(--font-size-medium);
-  margin-left: 15vw;
-}
-
-.wrapper > h3,
-.wrapper > p,
-.wrapper > ul {
-  margin-left: 30vw;
 }
 
 .wrapper > h3 {
@@ -44,14 +26,6 @@
   line-height: 1.6;
 }
 
-@media (max-width: 739px) {
-  .wrapper > h2 {
-    margin-left: 0;
-  }
-
-  .wrapper > h3,
-  .wrapper > p,
-  .wrapper > ul {
-    margin-left: 20px;
-  }
+.wrapper a {
+  color: var(--grey);
 }
