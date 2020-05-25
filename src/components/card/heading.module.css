@@ -1,0 +1,7 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+
+  font-size: var(--font-size-alt);
+  font-weight: 500;
+  margin: 0;
+}

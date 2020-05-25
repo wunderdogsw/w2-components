@@ -1,0 +1,5 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+
+  color: #a0a0a0;
+}

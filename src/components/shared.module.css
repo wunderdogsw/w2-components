@@ -6,6 +6,7 @@
   --font-size-large: 100px;
   --font-size-medium: 60px;
   --font-size-normal: 27px;
+  --font-size-alt: 45px;
 
   --spacing: 120px;
   --spacing-small: 40px;
@@ -29,6 +30,7 @@
     --font-size-large: 80px;
     --font-size-medium: 40px;
     --font-size-normal: 22px;
+    --font-size-alt: 35px;
 
     --spacing: 80px;
     --spacing-small: 50px;
@@ -40,6 +42,7 @@
     --font-size-large: 60px;
     --font-size-medium: 30px;
     --font-size-normal: 22px;
+    --font-size-alt: 28px;
 
     --spacing: 70px;
     --spacing-small: 30px;

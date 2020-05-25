@@ -1,0 +1,10 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+
+  padding-top: 34px;
+}
+
+.wrapper > p {
+  margin-bottom: var(--spacing-small);
+  margin-top: 0;
+}

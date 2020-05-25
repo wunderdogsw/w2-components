@@ -1,0 +1,3 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+}
