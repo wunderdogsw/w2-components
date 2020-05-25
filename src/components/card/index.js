@@ -1,13 +1,10 @@
-import BaseComponent from "./base";
-import BodyComponent from "./body";
-import HeadingComponent from "./heading";
-import MetaComponent from "./meta";
+import Base from "./base";
+import Body from "./body";
+import Heading from "./heading";
+import Meta from "./meta";
 
-export default Object.assign(BaseComponent, {
-  Body: BodyComponent,
-  Heading: HeadingComponent,
-  Meta: MetaComponent,
+export default Object.assign(Base, {
+  Body: Body,
+  Heading: Heading,
+  Meta: Meta,
 });
-export const Body = BodyComponent;
-export const Heading = HeadingComponent;
-export const Meta = MetaComponent;
