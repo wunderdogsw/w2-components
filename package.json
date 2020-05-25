@@ -1,7 +1,7 @@
 {
   "name": "@wunderdog/w2-components",
   "description": "React components extracted from w2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "dist/index.js",
   "files": [
     "src",
