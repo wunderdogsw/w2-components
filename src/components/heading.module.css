@@ -2,7 +2,8 @@
   composes: root from "./shared.module.css";
 
   font-weight: 500;
-  margin: 0;
+  margin-bottom: var(--spacing-medium);
+  margin-top: 0;
 }
 
 h1.wrapper {
