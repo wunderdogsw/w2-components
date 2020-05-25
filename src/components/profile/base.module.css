@@ -1,0 +1,11 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+
+  display: flex;
+}
+
+@media screen and (max-width: 1199px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+}

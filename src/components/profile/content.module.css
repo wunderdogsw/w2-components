@@ -1,0 +1,12 @@
+.wrapper {
+  composes: root from "../shared.module.css";
+
+  margin-left: var(--spacing-small);
+}
+
+@media screen and (max-width: 1199px) {
+  .wrapper {
+    margin-left: 0;
+    margin-bottom: var(--spacing-small);
+  }
+}
