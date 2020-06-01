@@ -6,7 +6,7 @@
 
 To install the package, run
 
-    npm install w2-components
+    npm install @wunderdog/w2-components
 
 ## Examples
 
